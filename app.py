@@ -18,10 +18,10 @@ headers = {
 response = requests.post(url, json=payload, headers=headers)
 
 device = response.json()
-iid = device["Install id"]
-did = device["Device id"]
-openudid = device["Openudid"]
-cdid = device["Cdid"]
+iid = device["7226069130101131014"]
+did = device["7226068465487578629"]
+openudid = device["7954e0cc835ce28a"]
+cdid = device["5c530c53-de6a-4b9b-9b2a-8b69eb22302f"]
 
 def scrape_followers(userid: str):
     try:
